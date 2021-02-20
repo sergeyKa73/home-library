@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.element {
+    font-size: 35px;
+    padding: 10px;
+    margin: 10px;
+    background: brown;
+}
+
+.container {
+    height: 500px;
+    padding: 10px;
+    background: silver;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    
+}
+
