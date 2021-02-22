@@ -1,28 +1,37 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 * {
     box-sizing: border-box;
 }
 
-.element {
-    font-size: 35px;
-    padding: 10px;
-    margin: 10px;
-    background: brown;
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    text-align: center;
 }
 
-.container {
-    height: 500px;
-    padding: 10px;
-    background: silver;
+.cards_books {
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: stretch;
-    
+    flex-wrap: wrap;
+    justify-content: space-around;;
 }
 
+.card_book {
+    flex: 1 0 250px;
+    margin: 10px;
+    flex: 1, 0;
+}
+
+.image {
+    margin-top: 10px;
+}
+
+.title{}
+
+.bookAuthor, .status {
+    text-align: left;
+}
